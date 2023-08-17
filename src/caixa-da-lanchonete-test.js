@@ -9,6 +9,7 @@ describe('CaixaDaLanchonete', () => {
         //expect(resultado.replace("\xa0", " ")).toEqual(resultadoEsperado); //errado
 
         expect(resultado.replace("\xa0", " ")) //correto
+
     };
 
     test.each([
